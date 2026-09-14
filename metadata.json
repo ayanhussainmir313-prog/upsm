@@ -1,0 +1,6 @@
+{
+  "name": "Uswa Public School Minapin",
+  "description": "Official homepage of Uswa Public School Minapin under Uswa Education System (UES) in Gilgit-Baltistan. Building Knowledge, Character & Confidence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
