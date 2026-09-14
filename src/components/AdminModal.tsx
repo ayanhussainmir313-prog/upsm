@@ -70,7 +70,7 @@ const INITIAL_APPLICATIONS: Application[] = [
     id: 'APP-1003',
     studentName: 'Abbas Kazim',
     guardianName: 'Muhammad Kazim',
-    applyingClass: 'Nursery',
+    applyingClass: 'ECE 1',
     phone: '0342-9901823',
     address: 'Sikandarabad, Nagar',
     previousSchool: 'First Time Admission',

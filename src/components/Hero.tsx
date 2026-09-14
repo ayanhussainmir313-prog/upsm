@@ -52,10 +52,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApply, onExplore }) => {
             - Heavy opaque navy on the left for maximum text readability
             - Smooth fade to transparent across center and right to showcase the campus building
             - Subtle vertical vignette top and bottom */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#07132B] via-[#07132B]/85 to-transparent/20 md:to-transparent/10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#07132B] via-transparent to-[#07132B]/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#07132B]/90 via-[#07132B]/70 to-transparent/20 md:to-transparent/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#07132B]/80 via-transparent to-[#07132B]/35" />
         {/* Subtle royal blue atmospheric glow behind the heading */}
-        <div className="absolute -left-20 top-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute -left-20 top-1/4 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl pointer-events-none" />
       </div>
 
       {/* Main Hero Content Area */}
@@ -66,7 +66,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApply, onExplore }) => {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-900/60 border border-blue-400/30 text-blue-200 text-xs sm:text-sm font-medium tracking-wide backdrop-blur-md mb-6 shadow-sm"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-800/40 border border-blue-300/25 text-blue-100 text-xs sm:text-sm font-medium tracking-wide backdrop-blur-md mb-6 shadow-sm"
           >
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
             <span>Under Uswa Education System (UES) • Nagar, Gilgit-Baltistan</span>
@@ -90,7 +90,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApply, onExplore }) => {
             className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-[1.1] mt-2 mb-4 drop-shadow-md"
           >
             Uswa Public School <br className="hidden sm:inline" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-white to-sky-200">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-100 via-sky-100 to-cyan-100">
               Minapin
             </span>
           </motion.h1>
@@ -100,7 +100,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApply, onExplore }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="font-heading font-semibold text-xl sm:text-2xl text-blue-200/95 tracking-normal mb-5 flex items-center gap-2.5"
+            className="font-heading font-semibold text-xl sm:text-2xl text-blue-100/90 tracking-normal mb-5 flex items-center gap-2.5"
           >
             <span className="w-8 h-0.5 bg-amber-400 rounded-full inline-block" />
             <span>Building Knowledge, Character &amp; Confidence</span>

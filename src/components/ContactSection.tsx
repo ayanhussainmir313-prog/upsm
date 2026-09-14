@@ -22,11 +22,11 @@ export const ContactSection: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center mb-14">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider mb-3">
             <MapPin className="w-3.5 h-3.5 text-blue-700" />
-            <span>Campus Location &amp; Contact</span>
+            <span>Contact Us</span>
           </div>
 
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#0A192F] tracking-tight">
-            Connect With School Administration
+            Contact Us
           </h2>
 
           <p className="mt-3 text-slate-600 text-base">
@@ -67,6 +67,24 @@ export const ContactSection: React.FC = () => {
                   </h3>
                   <p className="text-slate-600 text-sm mt-1 leading-relaxed">
                     USWA Education System (UES) Gilgit-Baltistan • Friends’ Educational &amp; Medical Trust (FEMT)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-xs">
+              <div className="flex items-start gap-4">
+                <div className="w-11 h-11 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center shrink-0 border border-blue-100">
+                  <Phone className="w-5 h-5" />
+                </div>
+                <div>
+                  <p className="text-slate-600 text-sm mt-1 leading-relaxed">
+                    <span className="font-semibold text-slate-800 mr-2">Phone:</span>
+                    <a href="tel:+923183895936" className="text-blue-700 hover:text-blue-900 font-medium">03183895936</a>
+                  </p>
+                  <p className="text-slate-600 text-sm mt-1 leading-relaxed break-all">
+                    <span className="font-semibold text-slate-800 mr-2">Email:</span>
+                    <a href="mailto:ayanhussainmir@gmail.com" className="text-blue-700 hover:text-blue-900 font-medium">ayanhussainmir313@gmail.com</a>
                   </p>
                 </div>
               </div>
@@ -164,7 +182,7 @@ export const ContactSection: React.FC = () => {
                     }
                     className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-hidden focus:ring-2 focus:ring-blue-600 text-sm bg-white"
                   >
-                    <option value="Nursery / Prep">Early Years (Nursery / Prep / KG)</option>
+                    <option value="ECE 1 / ECE 2">Early Years (ECE 1 / ECE 2)</option>
                     <option value="Class 1 - 5">Primary Section (Class 1 to 5)</option>
                     <option value="Class 6 - 8">Middle Section (Class 6 to 8)</option>
                     <option value="SSC-I / Class 9">Secondary SSC-I (Class 9)</option>

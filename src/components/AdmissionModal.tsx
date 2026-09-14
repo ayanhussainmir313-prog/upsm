@@ -11,7 +11,7 @@ export const AdmissionModal: React.FC<AdmissionModalProps> = ({ isOpen, onClose 
   const [formData, setFormData] = useState({
     studentName: '',
     guardianName: '',
-    applyingClass: 'Nursery',
+    applyingClass: 'ECE 1',
     phone: '',
     email: '',
     address: 'Minapin, Nagar',
@@ -158,8 +158,8 @@ export const AdmissionModal: React.FC<AdmissionModalProps> = ({ isOpen, onClose 
                     }
                     className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-hidden focus:ring-2 focus:ring-blue-600 bg-white"
                   >
-                    <option value="Nursery">Nursery</option>
-                    <option value="Prep / KG">Prep / KG</option>
+                    <option value="ECE 1">ECE 1</option>
+                    <option value="ECE 2">ECE 2</option>
                     <option value="Class 1">Class 1</option>
                     <option value="Class 2">Class 2</option>
                     <option value="Class 3">Class 3</option>
