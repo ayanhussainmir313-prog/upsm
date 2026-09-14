@@ -24,7 +24,7 @@ export const TopBar: React.FC<TopBarProps> = ({ onOpenAdmin, onOpenAdmission }) 
           <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-gradient-to-r from-cyan-500/15 via-blue-500/15 to-fuchsia-500/20 px-3 py-1.5 shadow-[0_0_18px_rgba(34,211,238,0.15)] ring-1 ring-white/5 backdrop-blur-sm">
             <Sparkles className="w-3.5 h-3.5 text-amber-300 drop-shadow-[0_0_8px_rgba(253,224,71,0.8)]" />
             <span className="bg-gradient-to-r from-cyan-200 via-blue-100 to-fuchsia-200 bg-clip-text text-transparent font-bold uppercase tracking-[0.18em] text-[9px] sm:text-[10px]">
-              Ayan Hussain Mir
+             Made by Ayan Mir
             </span>
           </div>
 
